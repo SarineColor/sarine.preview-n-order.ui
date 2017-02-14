@@ -4,5 +4,8 @@
 // The list of which env maps to which file can be found in `angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  serverEndpoint: 'https://programmanager-3.qa.sarineplatform.com/programs/v1/',
+  stonesEndpoint: 'https://api-3.qa.sarine.com/stones/v1/',
+  authEndpoint: 'https://identityprovider-3.qa.sarineplatform.com/api/v1/'
 };
